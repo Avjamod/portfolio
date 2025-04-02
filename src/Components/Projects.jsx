@@ -5,12 +5,12 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center mt-10 min-h-screen"
+      className="flex flex-col items-center mt-10  min-h-screen"
     >
-      <div className="text-4xl font-bebasneue">
+      <div className="md:text-4xl text-4xl font-bebasneue px-5">
         "Scalable, user-friendly, and efficient digital solutions."
       </div>
-      <div className="grid grid-cols-3 p-20">
+      <div className="md:grid grid-cols-3 md:p-20 p-5 ">
         <ProjectCard
           imageUrl={"Images/CodeMatch.png"}
           projectTitle={"CodeMatch"}
