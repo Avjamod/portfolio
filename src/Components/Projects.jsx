@@ -29,7 +29,7 @@ const Projects = () => {
           imageUrl={"Images/TastyNest.png"}
           projectTitle={"TastyNest"}
           projectDescription={
-            "Namaste Food is a seamless food ordering platform built with React.js, Redux Toolkit, and Swiggy APIs. It offers real-time restaurant listings, search, and a smooth checkout experience."
+            "TastyNest is a seamless food ordering platform built with React.js, Redux Toolkit, and Swiggy APIs. It offers real-time restaurant listings, search, and a smooth checkout experience."
           }
         />
       </div>
