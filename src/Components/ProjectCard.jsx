@@ -3,9 +3,9 @@ import React from "react";
 const ProjectCard = ({ imageUrl, projectTitle, projectDescription }) => {
   return (
     <div className="m-2">
-      <div className="card bg-base-100  shadow-sm">
+      <div className="card bg-base-100  shadow-sm hover:shadow-2xl">
         <figure>
-          <img src={imageUrl} alt="Shoes" />
+          <img className="h-25 " src={imageUrl} alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold">{projectTitle}</h2>

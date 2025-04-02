@@ -19,13 +19,19 @@ const Projects = () => {
           }
         />
         <ProjectCard
-          imageUrl={"Images/NetflixGPT.png"}
-          projectTitle={"NetflixGPT"}
+          imageUrl={"Images/ReelIntel.png"}
+          projectTitle={"ReelIntel"}
           projectDescription={
-            "NetflixGPT is a movie streaming platform with AI-powered search using Google AI’s API. It features Firebase authentication, multilingual support, and personalized movie recommendations."
+            "ReelIntel is a movie streaming platform with AI-powered search using Google AI’s API. It features Firebase authentication, multilingual support, and personalized movie recommendations."
           }
         />
-        <ProjectCard />
+        <ProjectCard
+          imageUrl={"Images/TastyNest.png"}
+          projectTitle={"TastyNest"}
+          projectDescription={
+            "Namaste Food is a seamless food ordering platform built with React.js, Redux Toolkit, and Swiggy APIs. It offers real-time restaurant listings, search, and a smooth checkout experience."
+          }
+        />
       </div>
     </div>
   );
