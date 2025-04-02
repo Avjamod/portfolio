@@ -12,7 +12,7 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-3 p-20">
         <ProjectCard
-          imageUrl={"/public/Images/CodeMatch.png"}
+          imageUrl={"Images/CodeMatch.png"}
           projectTitle={"CodeMatch"}
           projectDescription={
             "Code Match connects developers based on skills and interests,enabling seamless collaboration. Built with React.js, Node.js,Express.js, and MongoDB, it features real-time chat and projectmatchmaking."
