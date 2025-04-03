@@ -9,8 +9,10 @@ const ThemeController = () => {
     setTheme(!theme);
     if (theme) {
       dispatch(changeTheme("dark"));
+      localStorage.setItem("theme", "dark");
     } else {
       dispatch(changeTheme("light"));
+      localStorage.setItem("theme", "light");
     }
   };
   return (

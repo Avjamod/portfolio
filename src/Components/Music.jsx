@@ -13,7 +13,7 @@ const Music = () => {
     }
   };
   return (
-    <div>
+    <div className="z-3">
       <label className="swap">
         <input type="checkbox" onClick={handleMusic} />
 

@@ -8,9 +8,12 @@ import Notification from "./Notification";
 import Skills from "./Skills";
 import HireMe from "./HireMe";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Body = () => {
   const { theme } = useSelector((store) => store);
+  //const theme = localStorage.getItem("theme");
   return (
     <div id="home" data-theme={theme}>
       <Navbar />
@@ -19,6 +22,8 @@ const Body = () => {
       <Skills />
       <HireMe />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };
